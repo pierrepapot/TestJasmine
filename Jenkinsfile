@@ -4,8 +4,6 @@ node {
     //env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
     // on windows
     env.PATH="${env.NODEJS_HOME};${env.PATH}"
-    // test path sh
-    env.PATH="${env.PATH};C:\Program Files\Git\bin"
     
     stage('DL') {
       checkout scm
